@@ -1,4 +1,4 @@
-package erick.example.myapplication;
+package erick.example.tarea01;
 
 import org.junit.Test;
 

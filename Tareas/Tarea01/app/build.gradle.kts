@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "erick.example.myapplication"
+    namespace = "erick.example.tarea01"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "erick.example.myapplication"
+        applicationId = "erick.example.tarea01"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
