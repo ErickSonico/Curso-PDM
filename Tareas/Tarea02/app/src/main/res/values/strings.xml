@@ -3,7 +3,6 @@
     <string name="jefe_maestro">Jefe Maestro</string>
     <string name="bio_jefe_maestro">El Jefe Maestro John-117 es un Spartan-II nacido el 7 de marzo de 1511 en el planeta Eridanus II. Ha servido como una de las figuras más importantes de la Guerra Humano-Covenant…</string>
 
-
     <string name="cortana">Cortana</string>
     <string name="buck">Buck</string>
     <string name="thel_vadamee">Thel \'Vadamee</string>
@@ -14,4 +13,14 @@
     <string name="nombre">Tu nombre</string>
     <string name="publicar">Publicar</string>
     <string name="captcha">Soy humano</string>
+
+    <!-- Menú tres puntitos -->
+    <string name="action_search">Buscar</string>
+    <string name="action_info">Información de la app</string>
+    <string name="acerca_de">Viva Halo</string>
+
+    <!-- Drawer Items -->
+    <string name="nav_add">Agregar personaje</string>
+    <string name="nav_delete">Eliminar personaje</string>
+    <string name="nav_edit">Editar personaje</string>
 </resources>
