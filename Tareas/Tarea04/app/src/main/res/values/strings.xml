@@ -4,10 +4,20 @@
     <string name="bio_jefe_maestro">El Jefe Maestro John-117 es un Spartan-II nacido el 7 de marzo de 1511 en el planeta Eridanus II. Ha servido como una de las figuras más importantes de la Guerra Humano-Covenant…</string>
 
     <string name="cortana">Cortana</string>
+    <string name="bio_cortana">Cortana es una inteligencia artificial (IA) del Comando de Seguridad Espacial de las Naciones Unidas (UNSC). Fue creada por la Dra. Catherine Halsey a partir de un clon de su propio cerebro.</string>
+
     <string name="buck">Buck</string>
+    <string name="bio_buck">Edward Malcolm Buck es un Spartan-IV que anteriormente sirvió como un ODST durante la Guerra Humano-Covenant y los años posteriores.</string>
+
     <string name="thel_vadamee">Thel \'Vadamee</string>
+    <string name="bio_thel_vadamee">Thel \'Vadam es el Inquisidor Sangheili que lideró las fuerzas del Covenant antes de unirse a la humanidad para detener la activación de los anillos de Halo.</string>
+
     <string name="ur_didacta">Ur Didacta</string>
+    <string name="bio_ur_didacta">El Didacta es un Prometeo Forerunner que sirvió como el comandante supremo de las fuerzas militares de los Forerunner durante su guerra contra los Ancestros Humanos y el Flood.</string>
+
     <string name="atriox">Atriox</string>
+    <string name="bio_atriox">Atriox es el líder de los Desterrados, una poderosa facción mercenaria que se rebeló contra el Covenant durante la Gran Cisma.</string>
+
     <string name="seleccionar">Seleccionar</string>
     <string name="comentario">Deja un comentario</string>
     <string name="nombre">Tu nombre</string>

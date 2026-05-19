@@ -64,6 +64,7 @@
             app:layout_constraintEnd_toEndOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
@@ -84,6 +85,7 @@
             app:layout_constraintEnd_toEndOf="parent">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_comentario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
@@ -92,17 +94,15 @@
 
 
         <Button
-            android:id="@+id/btn_like"
+            android:id="@+id/btn_publicar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/publicar"
             android:backgroundTint="@color/rojo"
             android:textColor="@color/white"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="24dp"
             app:layout_constraintTop_toBottomOf="@id/layout_comentarios"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"/>
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -111,11 +111,36 @@
             android:text="@string/captcha"
             android:textColor="@color/white"
             android:buttonTint="@color/amarillo"
-            app:layout_constraintTop_toTopOf="@id/btn_like"
-            app:layout_constraintBottom_toBottomOf="@id/btn_like"
-            app:layout_constraintStart_toEndOf="@id/btn_like"
+            app:layout_constraintTop_toTopOf="@id/btn_publicar"
+            app:layout_constraintBottom_toBottomOf="@id/btn_publicar"
+            app:layout_constraintStart_toEndOf="@id/btn_publicar"
             android:layout_marginStart="16dp"/>
 
+        <TextView
+            android:id="@+id/label_comentarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comentarios:"
+            android:textColor="@color/amarillo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/btn_publicar"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_lista_comentarios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Aún no hay comentarios."
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toBottomOf="@id/label_comentarios"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
