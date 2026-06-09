@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_obscuro"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_titulo_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información de la App"
+            android:textColor="@color/amarillo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txt_contenido_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esta es una wiki para los personajes del universo de Halo.\n\n Aquí se pueden encontrar biografías detalladas, agregar nuevos personajes y dejar comentarios.\n\nDesarrollado para el curso de Programación de Dispositivos Móviles 2026-2.\n\n Erick Iram García Velasco"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>
